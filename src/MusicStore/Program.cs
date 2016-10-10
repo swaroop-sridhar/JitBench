@@ -11,6 +11,8 @@ namespace MusicStore
     {
         public static void Main(string[] args)
         {
+            MusicStoreEventSource.Log.EnteringMain();
+
             var totalTime = Stopwatch.StartNew();
 
             var config = new ConfigurationBuilder()
