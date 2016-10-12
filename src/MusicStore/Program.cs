@@ -54,6 +54,8 @@ namespace MusicStore
 
             host.Start();
 
+            MusicStoreEventSource.Log.HostStarted();
+
             totalTime.Stop();
             Console.WriteLine("Server started in {0}ms", totalTime.ElapsedMilliseconds);
             Console.WriteLine();

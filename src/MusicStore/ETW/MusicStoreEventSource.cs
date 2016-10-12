@@ -16,5 +16,10 @@ namespace MusicStore
         {
             WriteEvent(1, "Entering Main");
         }
+
+        public void HostStarted()
+        {
+            WriteEvent(2, "Host has started");
+        }
     }
 }
