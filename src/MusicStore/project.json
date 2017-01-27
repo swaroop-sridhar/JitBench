@@ -62,10 +62,14 @@
       "dependencies": {
         "Microsoft.NETCore.App": {
           "version": "1.0.1",
-          "type": "platform"
-        }
+        },
+        "runtime.win7-x64.Microsoft.NETCore.Runtime.CoreCLR": "1.2.0-beta-24608-01",
+        "runtime.win7-x64.Microsoft.NETCore.Jit": "1.2.0-beta-24608-01"
       }
     }
+  },
+  "runtimes": {
+    "win10-x64": {}
   },
   "tools": {
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-*"
